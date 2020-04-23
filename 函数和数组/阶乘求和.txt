@@ -1,0 +1,24 @@
+//33阶乘求和（*= 比 调用自身 效率更高）
+#include <stdio.h>
+//int main()
+//{
+//    int n, i, value, sum = 0;
+//    printf("Input n(n > 0):\n");
+//    scanf("%d", &n);
+//    for(i = 1; i <= n; i++)
+//    {
+//        value = fact(i);
+//        sum += value;
+//    }
+//    printf("\nthe sum of %d%! is %d", n, sum);
+//    return 0;
+//}
+//int fact(int n)
+//{
+//    int i, item = 1;
+//    for(i = 1; i <= n; i++)
+//    {
+//        item *= i;
+//    }
+//    return item;
+//}

@@ -1,0 +1,32 @@
+//30 水手分椰子（代码是按块执行的，与缩进无关）
+#include <stdio.h>
+//int division()
+//{
+//    int m, n;
+//    float item;
+//    for(m = 6; m <= 10000; m++)
+//    {
+//        item = m;
+//        for(n = 2; n <= 5; n++)
+//        {
+//
+//            item = (item - 1) * 0.8;
+//            if(item != (int)item)
+//            {
+//                break;
+//            }
+//        }
+//
+//        if(n > 5)
+//        {
+//            return m;
+//        }
+//    }
+//}
+//int main()
+//{
+//    int result;
+//    result = division();
+//    printf("The total is:%d\n", result);
+//    return 0;
+//}

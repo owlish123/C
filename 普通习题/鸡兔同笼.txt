@@ -1,0 +1,12 @@
+//13鸡兔同笼
+#include <stdio.h>
+//int main()
+//{
+//    int a, b, x, y;
+//    printf("Input a,b:\n");
+//    scanf("%d,%d", &a, &b);
+//    x = (4*a - b) / 2;
+//    y = (b - 2*a) / 2;
+//    printf("x = %d, y = %d", x, y);
+//    return 0;
+//}

@@ -1,0 +1,23 @@
+//15 年产值翻翻的年数 should update yield and year in the for iteration.
+#include <stdio.h>
+//int main()
+
+//{
+//    int ans[4] = {6, 8, 10, 12};
+//    float yield;
+//    int year, i;
+//    for(i = 0; i < 4; i++)
+//    {
+//        yield = 100.0;
+//        year = 0;
+//        do
+//        {
+////            printf("%d\n", ans[i]);
+//            yield = yield * (1 + ans[i]/100.0);
+//            printf("%f\n", yield);
+//            year ++;
+//        } while(yield < 200);
+//        printf("rate = %d, year = %d\n", ans[i], year);
+//    }
+//    return 0;
+//}

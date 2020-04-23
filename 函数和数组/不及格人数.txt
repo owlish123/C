@@ -1,0 +1,28 @@
+//32不及格人数（读入用循环解决）
+#include <stdio.h>
+//int main()
+//{
+//    int n, number;
+//    printf("How many students?");
+//    scanf("%d", &n);
+//    number = fail(n);
+//    printf("fail students = %d", number);
+//    return 0;
+//}
+//
+//int fail(int n)
+//{
+//    int i, count = 0;
+//    float score;
+//    for(i = 1; i <= n; i++)
+//    {
+//        printf("\nscore:");
+//        scanf("%f", &score);
+//        if(score < 60)
+//        {
+//            count++;
+//        }
+//
+//    }
+//    return count;
+//}

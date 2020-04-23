@@ -1,0 +1,17 @@
+//21 计算阶乘
+#include <stdio.h>
+//int main()
+//{
+//    int item=1, sum = 0, m = 1;
+//    long int n;
+//    printf("Input n:\n");
+//    scanf("%ld", &n);
+//    do
+//    {
+//        item *= m;
+//        sum += item;
+//        m++;
+//    }while(sum < n);
+//    printf("sum = %d, m < %d", sum, m);
+//    return 0;
+//}

@@ -1,0 +1,63 @@
+#include <stdio.h>
+//6圆的面积(三种循环实现)********最后大于50的面积能否取？
+//int main()
+//{
+//    int r;
+//    float area, pi, sum;
+//    area = 0.0;
+//    pi = 3.14;
+//    sum = 0.0;
+//    for(r = 1; r <= 10 && area < 50; r++)
+//    {
+//        area = pi*r*r;
+//        sum += area;
+//        printf("r = %d, area = %.2f, sum = %.2f\n", r, area, sum);
+//
+//    }
+//    printf("sum = %.2f", sum);
+//    return 0;
+//}
+//int main()
+//{
+//    int r;
+//    float area, pi, sum;
+//    r = 1, pi = 3.14, sum = 0.0;
+//    while (r <= 10 && area < 50)
+//    {
+//        area = pi * r * r;
+//        sum += area;
+//        printf("r = %d, area = %.2f, sum = %.2f\n", r, area, sum);
+//        r++;
+//    }
+//    return 0;
+//}
+//int main()
+//{
+//    int r = 1;
+//    float pi = 3.14, area, sum = 0.0;
+//    do
+//    {
+//        area = pi * r * r;
+//        sum += area;
+//        printf("r = %d, area = %.2f, sum = %.2f\n", r, area, sum);
+//        r++;
+//    }while(r <= 10 && area < 50);
+//    return 0;
+//}
+//7打印水仙花数
+//#include<math.h>
+//int main()
+//{
+//    int n, i, j, k;
+//    for(n = 100; n < 1000; n++)
+//    {
+//        i = n / 100;
+//        j = n / 10 % 10;
+//        k = n % 10;
+//        if(n == (int)(pow(i, 3) + pow(j, 3) + pow(k, 3)))
+//        {
+//            printf("%d\n", n);
+//        }
+//    }
+//    return 0;
+//}

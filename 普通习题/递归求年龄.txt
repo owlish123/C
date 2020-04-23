@@ -1,0 +1,14 @@
+//25递归求年龄
+#include <stdio.h>
+//int recursion(int n)
+//{
+//    if(n == 1)
+//        return 10;
+//    return recursion(n - 1) + 2;
+//}
+//int main()
+//{
+//    int x = 10;
+//    printf("The age is: %d", recursion(4));
+//    return 0;
+//}

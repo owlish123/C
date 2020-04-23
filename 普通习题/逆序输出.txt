@@ -1,0 +1,13 @@
+//12逆序输出一个整数
+#include <stdio.h>
+//int main()
+//{
+//    int num, i, j, k;
+//    printf("Input a number:\n");
+//    scanf("%d", &num);
+//    i = num % 10;
+//    j = num / 10 % 10;
+//    k = num / 100;
+//    printf("%d%d%d", i, j, k);
+//    return 0;
+//}

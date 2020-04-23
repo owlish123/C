@@ -1,0 +1,42 @@
+//23计算x的n次方
+#include <stdio.h>
+//#include<math.h>
+
+//double qiuMi(double a, double b)
+//{
+//    double result;
+//    result = pow(a, b);
+//    return result;
+//}
+//
+//int main()
+//{
+//    double x, n;
+//    double result;
+//    printf("Input X and N:\n");
+//    scanf("%lf,%lf", &x, &n);
+//    result = qiuMi(x, n);
+//    printf("result = %lf", result);
+//    return 0;
+//}
+//#include <stdio.h>
+//long power(int x,int n)
+//{
+//    long result=1;
+//    long i;
+//    for (i=1;i<=n;i++)
+//    {
+//        result*=x;
+//    }
+//    return result;
+//}
+//int main()
+//{
+//    int x, n;
+//    long ret;
+//    printf("input two integer:\n");
+//    scanf("%d%d", &x, &n);
+//    ret = power(x, n);
+//    printf("%d to the power of %d=%ld\n", x, n, ret);
+//    return 0;
+//}

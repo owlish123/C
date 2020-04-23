@@ -1,0 +1,33 @@
+#include <stdio.h>
+//4直线增长和指数增长
+//#include <math.h>
+//int main(){
+//    int n, sumi;
+//    double sumj;
+//    sumi = 0;
+//    sumj = 0.0;
+//    for(n = 1; n <= 30; n++){
+//        sumi += 100000;
+//        sumj += 0.01 * pow(2, (n - 1));
+//        printf("%d,%lf\n", sumi, sumj);
+//        if (sumi <= sumj){
+//            printf("Turning point = %d\n", n);
+//        }
+//
+//    }
+//    return 0;
+//}
+//int main(){
+//    int n;
+//    double sumi=0, sumj=0, step = 0.01;
+//    for(n = 1; n <= 30; n++, step *= 2){
+//        sumi += 100000;
+//        sumj += step;
+//        printf("step=%lf - ", step);
+//        printf("%lf,%lf\n", sumi, sumj);
+//        if (sumi <= sumj){
+//            printf("Turning point = %d\n", n);
+//        }
+//    }
+//    return 0;
+//}

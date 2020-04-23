@@ -1,0 +1,18 @@
+//18 判断某个月有多少天
+#include <stdio.h>
+//int main()
+//{
+//    int year, month, days;
+//    int ans[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+//    printf("Input Year and Month:\n");
+//    scanf("%d, %d", &year, &month);
+//    days = ans[month - 1];
+//    if((year % 400 == 0) ||(year % 4 == 0 && year % 100 != 0) )
+//    {
+//        if(month == 2)
+//        {
+//            days++;
+//        }
+//    }
+//    printf("%d", days);
+//}

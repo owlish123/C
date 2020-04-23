@@ -1,0 +1,63 @@
+//9求pi的值
+#include <stdio.h>
+//int main()
+//{
+//    int n = 1;
+//    double val, total = 2;
+//    for( ;n <= 100; n++)
+//    {
+//        if (n % 2 == 0)
+//        {
+//            val = n / (n + 1.0);
+//        }
+//        else
+//        {
+//            val = (n + 1.0) / n;
+//        }
+//        total *= val;
+//    }
+//    printf("n = %d, pi = %f\n", n-1, total);
+//    return 0;
+//}
+//#include <stdbool.h>
+//int main() {
+//    int step = 0;
+//    double i = 2.0, j = 1.0, pi = 1;
+//    bool stepI = false, stepJ = true;
+//    for (; step <10000; step++) {
+//        printf("%d: %.0f/%.0f\n", step, i, j);
+//        pi *= i/j;
+//        if (stepI) i += 2.0;
+//        if (stepJ) j += 2.0;
+//        stepI = !stepI;
+//        stepJ = !stepJ;
+//    }
+//    printf("%lf\n", pi*2);
+//    return 0;
+//}
+
+
+
+//17 求pi值
+#include <stdio.h>
+//int main()
+//{
+//    float item, sum;
+//    int n = 1, count = 0;
+//    do
+//    {
+//        if (n % 2 != 0)
+//        {
+//            item = 1 / (2 * n - 1);
+//        }
+//        else
+//        {
+//            item = -1 / (2 * n - 1);
+//        }
+//        sum += item;
+//        count++;
+//        n++;
+//    }while(item > 0.0001);
+//    printf("pi = %f, count = %d", 4*sum, count);
+//    return 0;
+//}

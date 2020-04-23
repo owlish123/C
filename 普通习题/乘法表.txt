@@ -1,0 +1,16 @@
+//10乘法表(每列的列数上限为行号;每行结束换行)
+#include <stdio.h>
+//int main()
+//{
+//    int i, j, result;
+//    for(i = 1; i <= 9; i++)
+//    {
+//      for(j = 1; j <= i; j++)
+//      {
+//        result = i * j;
+//        printf("%4d", result);
+//      }
+//      printf("\n");
+//    }
+//    return 0;
+//}

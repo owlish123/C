@@ -1,0 +1,12 @@
+//22 n个a对n求余
+#include <stdio.h>
+//int main() {
+//    int a=6, n=9, sum=0, i, step;
+//    for (i=1, step=a; i<=n; i++) {
+//        printf("%d%%%d\n", step, i);
+//        sum += step%i;
+//        step = step*10 + a;
+//    }
+//    printf("sum=%d\n", sum);
+//    return 0;
+//}

@@ -1,0 +1,38 @@
+//53交换两数组对应元素的值
+#include <stdio.h>
+//#define N 10
+//int main()
+//{
+//    int i, n;
+//    int a[N] = {0};
+//    int b[N] = {0};
+//    printf("Input the size of array:\n");
+//    scanf("%d", &n);
+//    printf("Input the array a:\n");
+//    for (i = 0; i < n; i++)
+//    {
+//        scanf("%d", &a[i]);
+//    }
+//    printf("Input the array b:\n");
+//    for (i = 0; i < n; i++)
+//        {
+//            scanf("%d", &b[i]);
+//        }
+//    int temp;
+//    for (i = 0; i < n; i++)
+//    {
+//        temp = a[i];
+//        a[i] = b[i];
+//        b[i] = temp;
+//    }
+//    printf("array a:\n");
+//    for ( i = 0; i < n; i++)
+//    {
+//        printf("%d ", a[i]);
+//    }
+//    printf("\narray b:\n");
+//    for ( i = 0; i < n; i++)
+//    {
+//        printf("%d ", b[i]);
+//    }
+//}

@@ -1,0 +1,41 @@
+//34最大公约数（以除数和余数反复做除法运算，当余数为 0 时，取当前算式除数为最大公约数）
+#include <stdio.h>
+//int main()
+//{
+//    int a, b;
+//    printf("Input a(a > 0) and b(a > b):\n");
+//    scanf("%d,%d", &a, &b);
+//    printf("result is:%d", Gcd(a, b));
+//    return 0;
+//}
+//int Gcd(int a, int b)
+//{
+//    int i, c;
+//    c = a % b;
+//    if(c == 0)
+//    {
+//        return b;
+//    }
+//    else
+//    {
+//    for(i = 1; i <= b; i++)
+//    {
+//        a = b;
+//        b = c;
+//        c = a % b;
+//        if(c == 0)
+//        {
+//            return b;
+//        }
+//    }
+//
+//    }
+//}
+//int main() {
+//    int a = 72, b = 90, c;
+//    for (c = a % b; c; c = a % b) {
+//        a = b;
+//        b = c;
+//    }
+//    printf("%d\n", b);
+//}

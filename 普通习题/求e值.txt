@@ -1,0 +1,27 @@
+//16 求e值
+#include <stdio.h>
+//int recursion(unsigned int i)
+//{
+//    if(i <= 1)
+//    {
+//        return 1;
+//    }
+//    return i * recursion(i - 1);
+//}
+//
+//int main()
+//{
+//    int j = 1, k = 0;
+//    float item, sum = 1.0;
+//    for(;j <= 50; j++)
+//    {
+//        item = 1 / recursion(j);
+//        printf("j = %d, item = %f\n", j, item);
+//        if(item < 0.00001)
+//        {
+//            k += 1;
+//            sum += item;
+//        }
+//    }
+//    printf("sum = %f, count = %d\n", sum, k);
+//}

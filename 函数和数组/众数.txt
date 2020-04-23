@@ -1,0 +1,32 @@
+//41众数
+#include <stdio.h>
+//int main()
+//{
+//    int feedback[10] = {0};
+//    int i, j, k, count = 0, maxCount = 0, temp = 0;
+//    printf("Input 10 feedbacks:\n");
+//    for(i = 0; i < 10; i++)
+//    {
+//       scanf("%d", &feedback[i]);
+//    }
+//
+//    for(j = 0; j < 10; j++)
+//    {
+//        for(k = 0; k < 10; k++)
+//        {
+//            if(feedback[j] == feedback[k])
+//            {
+//                count++;
+//            }
+//        }
+//        if(count > maxCount)
+//        {
+//            maxCount = count;
+//            temp = j;
+//        }
+//        count = 0;
+//    }
+//
+//    printf("mode = %d, count = %d", feedback[temp], maxCount);
+//    return 0;
+//}

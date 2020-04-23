@@ -1,0 +1,33 @@
+//49顺序查找
+#include <stdio.h>
+//int main()
+//{
+//    int ans[10] = {0};
+//    int i, x;
+//    printf("Input 10 numbers:\n");
+//    for(i = 0; i < 10; i++)
+//    {
+//        scanf("%d", &ans[i]);
+//    }
+//    printf("Input x:\n");
+//    scanf("%d", &x);
+//    Search(ans, 10, x);
+//    return 0;
+//}
+//
+//int Search(int a[], int n, int x)
+//{
+//    int i;
+//    for(i = 0; i < n; i++)
+//    {
+//        if(x == a[i])
+//        {
+//            printf("Subscript of x is %d\n", i);
+//            break;
+//        }
+//    }
+//    if(i >= n)
+//    {
+//        printf("Not Found!");
+//    }
+//}

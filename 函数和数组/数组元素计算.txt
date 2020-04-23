@@ -1,0 +1,18 @@
+//50数组元素计算
+#include <stdio.h>
+//#define N 10
+//int main()
+//{
+//    int i, temp;
+//    int a[N], b[N - 1];
+//    for(i = 0; i < N; i++)
+//    {
+//        scanf("%d", &a[i]);
+//    }
+//    for(i = 0; i < N -1; i++)
+//    {
+//        temp = a[i] * a[i + 1];
+//        printf("%d ", temp);
+//    }
+//    return 0;
+//}

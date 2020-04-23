@@ -1,0 +1,15 @@
+#include <stdio.h>
+//5取余数
+//int main(){
+//    int n, sum;
+//    sum = 0;
+//    for(n = 1; n <= 10000; n++){
+//        if(n % 11 == 0 && n % 10 ==5 ){
+//            sum += n;
+//            printf("%5d ", n);
+//        }
+//    }
+//    printf("\nsum = %d", sum);
+//
+//    return 0;
+//}

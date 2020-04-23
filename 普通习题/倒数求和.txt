@@ -1,0 +1,18 @@
+#include <stdio.h>
+//3倒数求和（整型相除仍为整型）
+int main(){
+    int n, i, j;
+    float sum;
+    sum = 1.0/6;
+    for (n = 10; n < 100; n++){
+        i = n % 10;
+        j = n / 10;
+        if ((i == 6) || (j == 6)){
+            sum += 1.0/n;
+            printf("%d\n", n);
+        }
+
+    }
+    printf("%f\n", sum);
+    return 0;
+}
